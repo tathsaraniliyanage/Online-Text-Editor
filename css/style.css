@@ -1,0 +1,54 @@
+	body {
+			background-color: #f5f5fc;
+		}
+
+		h1 {
+			padding-top: 40px;
+			padding-bottom: 40px;
+			text-align: center;
+			color: #25cad9;
+			font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+				Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+				sans-serif;
+		}
+
+		section {
+			padding: 5%;
+			padding-top: 0;
+			height: 100vh;
+		}
+
+		.side {
+			margin-left: 0;
+		}
+
+		button {
+			margin: 10px;
+			border-color: #957dad !important;
+			color: #28b1bb !important;
+			margin-bottom: 25px;
+		}
+
+		button:hover {
+			background-color: #fec8d8 !important;
+		}
+
+		button.active {
+			background-color: rgb(226, 204, 221) !important;
+			color: rgb(23, 19, 19) !important;
+		}
+
+		#textbox {
+			padding: 2%;
+			border-color: #d1c6d9 !important;
+			border-width: thick;
+			min-height: 50vh;
+			max-height: 75vh;
+			overflow-y: auto;
+			border: 3px solid #d1c6d9;
+		}
+
+		.flex-box {
+			display: flex;
+			justify-content: center;
+		}
